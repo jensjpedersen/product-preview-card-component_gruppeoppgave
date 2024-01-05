@@ -28,21 +28,37 @@ body {
     min-width: 375px;
     width: 50vw;
   }
-
-
 }
+
+
 .content_wrapper {
   background-color: hsl(0, 0%, 100%);
-  width: 50%;
-  border-radius: 0 10px 10px 0;
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+    border-radius: 0 0 10px 10px;
+  }
+  @media only screen and (min-width: 600px) {
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+  }
 }
 
 .img_wrapper {
-  width: 50%;
 
-
-  img {
-    border-radius: 10px 0 0 10px;
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+    img {
+      border-radius: 10px 10px 0 0;
+    }
   }
+
+  @media only screen and (min-width: 600px) {
+    width: 50%;
+    img {
+      border-radius: 10px 0 0 10px;
+    }
+  }
+
+
 }
 
