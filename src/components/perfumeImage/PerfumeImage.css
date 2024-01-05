@@ -1,0 +1,24 @@
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+@media only screen and (max-width: 600px) {
+  .desktop_image {
+    display: none;
+  }
+  .mobile_image {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .desktop_image {
+    display: block;
+  }
+  .mobile_image {
+    display: none;
+  }
+}
+
+
+
+
