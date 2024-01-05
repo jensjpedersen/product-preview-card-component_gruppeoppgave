@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
-
-
 body {
   background-color: hsl(26, 40%, 92%);
+  margin: 0;
+  padding: 0;
 }
 
 #root {
-  /* background-color: hsl(26, 40%, 92%); */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,8 +15,21 @@ body {
 
 #root section {
   display: flex;
+  width: 50vw;
+  min-width: 375px;
 }
 .content_wrapper {
   background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  border-radius: 0 10px 10px 0;
+}
+
+.img_wrapper {
+  width: 50%;
+
+
+  img {
+    border-radius: 10px 0 0 10px;
+  }
 }
 
