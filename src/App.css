@@ -25,7 +25,7 @@ body {
 
   @media only screen and (min-width: 600px) {
     width: 100vw;
-    min-width: 550px;
+    min-width: 855px;
     max-width: 1000px;
     width: 50vw;
   }
@@ -50,6 +50,8 @@ body {
     width: 90%;
     img {
       border-radius: 10px 10px 0 0;
+      min-width: 500px; 
+      object-fit: cover;
     }
   }
 
@@ -57,6 +59,15 @@ body {
     width: 50%;
     img {
       border-radius: 10px 0 0 10px;
+      min-height: 760px;
+      object-fit: cover;
+
+
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+
+
     }
   }
 
