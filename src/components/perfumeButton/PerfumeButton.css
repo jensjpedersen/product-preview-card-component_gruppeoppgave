@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+.btn_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn_cart{
     display: flex;
-    justify-content: center; 
     align-items: center;
     gap:10px;
-
     padding: 10px 50px;
     margin: 30px;
-
     border-radius:8px;
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
