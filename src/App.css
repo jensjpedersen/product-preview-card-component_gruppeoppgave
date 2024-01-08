@@ -13,6 +13,7 @@ body {
   align-items: center;
 }
 
+
 #root section {
   display: flex;
 
@@ -25,13 +26,14 @@ body {
 
   @media only screen and (min-width: 600px) {
     width: 100vw;
-    min-width: 375px;
+    min-width: 550px;
     width: 50vw;
   }
 }
 
 
 .content_wrapper {
+
   background-color: hsl(0, 0%, 100%);
   @media only screen and (max-width: 600px) {
     width: 90%;
