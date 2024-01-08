@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 370px;
   }
 
   @media only screen and (min-width: 600px) {
@@ -57,15 +58,6 @@ body {
     width: 50%;
     img {
       border-radius: 10px 0 0 10px;
-      min-height: 760px;
-      object-fit: cover;
-
-
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-
-
     }
   }
 
